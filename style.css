@@ -30,7 +30,7 @@ p {
 }
 
 .mainDetails {
-	padding: 25px 35px;
+	padding: 35px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
@@ -70,18 +70,36 @@ p {
 }
 
 #contactDetails {
-	float: right;
+	align-items: center;
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+   
 }
 
 #contactDetails ul {
-	list-style-type: none;
-	font-size: 0.9em;
-	margin-top: 2px;
+	font-size: 0em;
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    padding-left: 10;
+    float: right;
+	width: 150.5%;
+
+	
 }
 
 #contactDetails ul li {
-	margin-bottom: 3px;
+	margin-bottom: .70px;
 	color: #444;
+    display: inline
+    padding-left: 10;
+    float: right;
+	width: 10%;
+    
+    
 }
 
 #contactDetails ul li a, a[href^=tel] {
@@ -134,7 +152,6 @@ section:last-child {
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
-
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
