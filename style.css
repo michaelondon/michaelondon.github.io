@@ -31,19 +31,19 @@ p {
 
 .mainDetails {
 	padding: 35px 35px;
-	border-bottom: 2px solid #cf8a05;
+	border-bottom: 3px solid #cf8a05;
 	background: #e0dcdc;
 }
 
 #name h1 {
-	font-size: 2.5em;
+	font-size: 3.5em;
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
 }
 
 #name h2 {
-	font-size: 2em;
+	font-size: 2.5em;
 	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
