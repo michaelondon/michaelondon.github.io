@@ -59,7 +59,7 @@ p {
 }
 
 #headshot img {
-	width: 110%;
+	width: 80%;
 	height: auto;
 	-webkit-border-radius: 50px;
 	border-radius: inherit;
@@ -70,7 +70,7 @@ p {
 }
 
 #contactDetails {
-	align-items: center;
+	align-items: content: '';
     list-style: none;
     list-style-type: none;
     list-style-position: initial;
@@ -128,6 +128,14 @@ section:first-child {
 
 section:last-child {
 	padding: 20px 0 10px;
+}
+
+.center {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 67%;
+    padding: 20px;
 }
 
 .sectionTitle {
@@ -198,7 +206,7 @@ section:last-child {
 	#name, #contactDetails {
 		float: none;
 		width: 100%;
-		text-align: center;
+		text-align: content: '';
 	}
 	
 	.sectionTitle, .sectionContent {
