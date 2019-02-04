@@ -30,7 +30,7 @@ p {
 }
 
 .mainDetails {
-	padding: 35px 35px;
+	padding: 50px 35px;
 	border-bottom: 3px solid #cf8a05;
 	background: #e0dcdc;
 }
@@ -118,12 +118,12 @@ p {
 
 
 section {
-	border-top: 1px solid #dedede;
+	border-top: 2px solid #dedede;
 	padding: 20px 0 0;
 }
 
 section:first-child {
-	border-top: 0;
+	border-top: 50px;
 }
 
 section:last-child {
@@ -228,15 +228,15 @@ section:last-child {
 
 @media all and (max-width: 480px) {
 	.mainDetails {
-		padding: 15px 15px;
+		padding: 25px 10px;
 	}
 	
 	section {
-		padding: 15px 0 0;
+		padding: 50px 0 0;
 	}
 	
 	#mainArea {
-		padding: 0 25px;
+		padding: 0 50px;
 	}
 
 	
